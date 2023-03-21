@@ -5,6 +5,7 @@
 
 .gallery__container article {
   border: 1rem solid transparent;
+  
   transition: var(--transition);
 }
 
