@@ -2,10 +2,10 @@
 import './About.css';
 // import functions
 import React from 'react';
-// // import components
-// import Header from '../../components/Header/Header';
-// // import images
-// import HeaderImage from '../../assets/images/header_bg_1.jpg';
+// import components
+import Header from '../../components/Header/Header';
+// import images
+import HeaderImage from '../../assets/images/header_bg_1.jpg';
 // import StoryImage from '../../assets/images/about1.jpg'
 // import VisionImage from '../../assets/images/about2.jpg'
 // import MissionImage from '../../assets/images/about3.jpg'
@@ -15,11 +15,11 @@ function About() {
     <>
       About
 
-      {/* <Header title="About Us" image={HeaderImage}>
+      <Header title="About Us" image={HeaderImage}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maiores doloribus, eligendi incidunt modi rerum debitis consequatur molestias?
       </Header>
 
-      <section className="about__story">
+      {/* <section className="about__story">
         <div className="container about__story-container">
           <div className="about__section-image">
             <img src={StoryImage} alt="Our StoryImage" />
