@@ -24,13 +24,16 @@
 }
 
 .card.values__value {
-  padding-top: 3.5rem;
-  text-align: left;
   position: relative;
+  
+  padding-top: 3.5rem;
+
+  text-align: left;
 }
 
 .card.values__value span {
   position: absolute;
+  
   top: -1.5rem;
 }
 
