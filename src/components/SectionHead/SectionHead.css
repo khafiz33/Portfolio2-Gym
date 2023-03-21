@@ -5,11 +5,14 @@
 }
 
 .section__head span {
-  background: var(--color-gray-500);
-  padding: 0.8rem;
+  font-size: 1.5rem;
+
   display: grid;
   place-items: center; 
-  border-radius: 1rem;
+  
+  padding: 0.8rem;
+  
   color: var(--color-secondary);
-  font-size: 1.5rem;
+  background: var(--color-gray-500);
+  border-radius: 1rem;
 }
