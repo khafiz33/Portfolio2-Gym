@@ -13,17 +13,15 @@ import HeaderImage from '../../assets/images/header_bg_1.jpg';
 function About() {
   return (
     <>
-      About
-
       <Header title="About Us" image={HeaderImage}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maiores doloribus, eligendi incidunt modi rerum debitis consequatur molestias?
       </Header>
 
-      {/* <section className="about__story">
+      <section className="about__story">
         <div className="container about__story-container">
-          <div className="about__section-image">
+          {/* <div className="about__section-image">
             <img src={StoryImage} alt="Our StoryImage" />
-          </div>
+          </div> */}
           <div className="about__section-content">
             <h1>Our Story</h1>
             <p>
@@ -50,17 +48,17 @@ function About() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam harum corrupti quas voluptate, perferendis consectetur veritatis veniam, ratione, distinctio iste dignissimos alias ipsum minima consequuntue?
             </p>
           </div>
-          <div className="about__section-image">
+          {/* <div className="about__section-image">
             <img src={VisionImage} alt="Our VisionImage" />
-          </div>
+          </div> */}
         </div>
       </section>
 
       <section className="about__mission">
         <div className="container about__mission-container">
-          <div className="about__section-image">
+          {/* <div className="about__section-image">
             <img src={MissionImage} alt="Our MissionImage" />
-          </div>
+          </div> */}
           <div className="about__section-content">
             <h1>Our Mission</h1>
             <p>
@@ -74,7 +72,7 @@ function About() {
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   )
 }
