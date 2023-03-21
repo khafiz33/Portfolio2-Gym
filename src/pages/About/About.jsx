@@ -7,8 +7,8 @@ import Header from '../../components/Header/Header';
 // import images
 import HeaderImage from '../../assets/images/header_bg_1.jpg';
 import StoryImage from '../../assets/images/about1.jpg'
-// import VisionImage from '../../assets/images/about2.jpg'
-// import MissionImage from '../../assets/images/about3.jpg'
+import VisionImage from '../../assets/images/about2.jpg'
+import MissionImage from '../../assets/images/about3.jpg'
 
 function About() {
   return (
@@ -48,17 +48,17 @@ function About() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam harum corrupti quas voluptate, perferendis consectetur veritatis veniam, ratione, distinctio iste dignissimos alias ipsum minima consequuntue?
             </p>
           </div>
-          {/* <div className="about__section-image">
+          <div className="about__section-image">
             <img src={VisionImage} alt="Our VisionImage" />
-          </div> */}
+          </div>
         </div>
       </section>
 
       <section className="about__mission">
         <div className="container about__mission-container">
-          {/* <div className="about__section-image">
+          <div className="about__section-image">
             <img src={MissionImage} alt="Our MissionImage" />
-          </div> */}
+          </div>
           <div className="about__section-content">
             <h1>Our Mission</h1>
             <p>
