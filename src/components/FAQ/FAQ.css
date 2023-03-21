@@ -1,7 +1,9 @@
 .faq {
-  background: var(--color-gray-500);
   padding: 2rem;
+
+  background: var(--color-gray-500);
   border-radius: 1rem;
+
   cursor: pointer;
 }
 
@@ -12,11 +14,14 @@
 }
 
 .faq__icon {
-  background: transparent;
-  color: var(--color-gray-100);
   font-size: 1.5rem;
+
   display: grid;
   place-items: center;
+
+  color: var(--color-gray-100);
+  background: transparent;
+  
   cursor: pointer;
 }
 
