@@ -3,22 +3,24 @@
 }
 
 .programs__wrapper {
+  margin-top: 4rem;
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
-  margin-top: 4rem;
 }
 
 .programs__program a {
-  margin-top: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  margin-top: 2.5rem;
 }
 
 .programs__program:hover a {
-  background: var(--color-secondary);
   color: var(--color-gray-600);
+  background: var(--color-secondary);
 }
 
 /* Media queries (medium screens) */
@@ -33,6 +35,7 @@
   .programs__wrapper {
     grid-template-columns: 1fr;
     gap: 2rem;
+ 
     margin-top: 3rem;
   }
 
